@@ -115,7 +115,7 @@ for posicao, valor in enumerate(diasEvalores):
         if valor > media: 
             diasMedia += 1
 
-        elif contador > 1:
+        if contador > 1:
             if valor != 0:
                 if maior < valor:
                     maior = valor
